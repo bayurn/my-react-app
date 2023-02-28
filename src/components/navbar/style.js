@@ -40,7 +40,7 @@ export const Menu = Styled.a`
   cursor: pointer;
 
   &:hover {
-    color: #ADE792;
+    color: #68B984;
   }
 
   &:not(:last-child) {
