@@ -1,7 +1,17 @@
-export default () => {
+import { Navbar, StyledNavbar, MenuWrapper, Menu } from "./style";
+
+const NavbarSection = () => {
   return (
-    <>
-      <h1>Ini Navbar</h1>
-    </>
+    <Navbar>
+      <StyledNavbar>
+        <MenuWrapper>
+          <Menu>Home</Menu>
+          <Menu>About</Menu>
+          <Menu>Product</Menu>
+        </MenuWrapper>
+      </StyledNavbar>
+    </Navbar>
   );
 };
+
+export default NavbarSection;
