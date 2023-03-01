@@ -44,17 +44,22 @@ export const Menu = Styled.a`
   font-weight: 600;
   color: #3A3A3A;
   cursor: pointer;
-  padding: 0 12px;
+  padding: 23px 12px;
+  margin: 0;
+  text-decoration: none;
+  position: relative;
 
   &:hover {
     color: #68B984;
-  }
-
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0px;
+    &::after {
+      content: "";
+      background: #68B984;
+      border-radius: 8px 8px 0px 0px;
+      height: 4px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
   }
 `;
