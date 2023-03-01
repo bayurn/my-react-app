@@ -1,7 +1,6 @@
 import logo from "../public/logo.svg";
 import "./App.css";
-import Navbar from "../components";
-import Banner from "../components";
+import { Navbar, Banner } from "../components/index";
 
 function App() {
   return (

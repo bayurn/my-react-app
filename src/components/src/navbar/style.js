@@ -4,6 +4,8 @@ export const StyledNavbar = Styled.div`
   background-color: white;
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 6px;
   padding: 20px 0;
+  position: relative;
+  overflow: hidden;
 `;
 
 export const Navbar = Styled.div`
@@ -18,6 +20,11 @@ export const MenuWrapper = Styled.div`
   display: flex;
   margin: auto;
   align-items: center;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   @media (min-width: 1441px) {
     max-width: 1344px;

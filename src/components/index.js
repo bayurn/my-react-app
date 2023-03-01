@@ -1,2 +1,2 @@
-export { default } from './navbar/container';
-export { default as Banner } from './banner/container';
+export { default as Navbar } from './src/navbar/container';
+export { default as Banner } from './src/banner/container';
