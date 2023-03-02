@@ -1,7 +1,8 @@
+import { Navbar } from "../components/index";
+import { Banner } from "../views/src/index";
 import { StyledSection } from "./App-style";
-import { Navbar, Banner } from "../components/index";
 
-function App() {
+const Home = () => {
   return (
     <StyledSection>
       <Navbar />
@@ -10,6 +11,6 @@ function App() {
       </div>
     </StyledSection>
   );
-}
+};
 
-export default App;
+export default Home;
