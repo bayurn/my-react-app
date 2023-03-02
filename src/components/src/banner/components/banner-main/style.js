@@ -6,7 +6,6 @@ export const StyledBanner = Styled.div`
 `;
 
 export const StyledImg = Styled.img`
-  margin-top: 32px;
   min-width: 100%;
   max-width: 100%;
   border-radius: 14px;
