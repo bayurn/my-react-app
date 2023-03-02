@@ -1,8 +1,8 @@
 import Styled from "styled-components";
 
-export const Navbar = Styled.div`
-  position: fixed;
-  z-index: 999;
+export const Navbar = Styled.nav`
+  position: sticky;
+  z-index: 998;
   top: 0;
   width: 100%;
 `;
@@ -24,19 +24,6 @@ export const MenuWrapper = Styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  @media (min-width: 1441px) {
-    max-width: 1344px;
-  }
-  @media (min-width: 1216px) and (max-width: 1440px) {
-    max-width: 1152px;
-  }
-  @media (min-width: 1023px) and (max-width: 1215px) {
-    max-width: 960px;
-  }
-  @media (max-width: 1022px) {
-    padding: 0 1.5rem;
-  }
 `;
 
 export const Menu = Styled.a`
