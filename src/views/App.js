@@ -1,5 +1,5 @@
 import { Navbar } from "../components/index";
-import { Banner, Caption } from "../views/src/index";
+import { Banner, Caption, Featured } from "../views/src/index";
 import { StyledSection } from "./App-style";
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Caption />
+      <Featured />
     </StyledSection>
   );
 };
