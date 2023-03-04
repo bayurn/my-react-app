@@ -10,5 +10,9 @@ export const StyledWrapper = Styled.div`
 `;
 
 export const StyledItems = Styled.div`
-
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
 `;
