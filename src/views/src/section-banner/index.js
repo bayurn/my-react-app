@@ -1,11 +1,13 @@
 import { StyledSection } from "./style";
 import { Banner } from "../../../components";
 
-const SectionBanner = () => {
+const SectionBanner = (props) => {
+  const { image } = props;
+
   return (
     <StyledSection>
       <div className="container">
-        <Banner />
+        <Banner image={image} />
       </div>
     </StyledSection>
   );

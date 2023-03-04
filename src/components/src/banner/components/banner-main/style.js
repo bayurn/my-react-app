@@ -8,5 +8,6 @@ export const StyledBanner = Styled.div`
 export const StyledImg = Styled.img`
   min-width: 100%;
   max-width: 100%;
+  max-height: 450px;
   border-radius: 14px;
 `;

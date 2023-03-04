@@ -1,9 +1,10 @@
 import MainBanner from "./components/banner-main";
 
-const SectionBanner = () => {
+const SectionBanner = (props) => {
+  const { image } = props;
   return (
     <>
-      <MainBanner />
+      <MainBanner image={image} />
     </>
   );
 };

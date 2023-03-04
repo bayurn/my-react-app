@@ -1,9 +1,11 @@
 import { StyledBanner, StyledImg } from "./style";
 
-const Banner = () => {
+const Banner = (props) => {
+  const { image } = props;
+
   return (
     <StyledBanner>
-      <StyledImg src="https://picsum.photos/1400/400" alt="Banner" />
+      <StyledImg src={image} alt="Banner" />
     </StyledBanner>
   );
 };
