@@ -1,3 +1,4 @@
-export { default as Banner } from "../src/section-banner";
-export { default as Caption } from "../src/section-caption";
-export { default as Featured } from "../src/section-featured";
+export { default as Banner } from "./section-banner";
+export { default as Caption } from "./section-caption";
+export { default as Featured } from "./section-featured";
+export { default as Highlight } from "./section-highlight";
