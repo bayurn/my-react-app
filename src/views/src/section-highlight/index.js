@@ -1,13 +1,13 @@
 import { StyledSection, StyledWrapper, StyledItems } from "./style";
 
 const SectionHighlight = (props) => {
-  const { image } = props;
+  const { data } = props;
 
   return (
     <StyledSection>
       <StyledWrapper className="container">
         <StyledItems>
-          <img src={image} alt="Highligt" width="100%" height="100%" />
+          <img src={data.image} alt="Highligt" width="100%" height="100%" />
         </StyledItems>
         <StyledItems>
           <h1>Hotel Van Java</h1>
