@@ -1,16 +1,21 @@
 import { StyledSection, StyledWrapper, StyledItems } from "./style";
 
 const SectionEvent = (props) => {
-  const { title, description } = props;
+  const { data } = props;
 
   return (
     <StyledSection>
-      <StyledWrapper>
+      <StyledWrapper className="container">
         <StyledItems>
-          <h1>{title}</h1>
-          <span>{description}</span>
+          <h1>{data.title}</h1>
+          <span>{data.description}</span>
+        </StyledItems>
+        <StyledItems>
+          <img src={data.image} width="100%" height="100%" />
         </StyledItems>
       </StyledWrapper>
     </StyledSection>
   );
 };
+
+export default SectionEvent;
