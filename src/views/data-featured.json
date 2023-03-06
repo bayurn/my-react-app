@@ -56,6 +56,11 @@
           "title": "Workspace"
         }
       ]
+    },
+    "event": {
+      "title": "Fireworks Event",
+      "description": "Donec sapien eros, cursus id scelerisque in, venenatis quis tortor. Praesent tristique malesuada consequat. Duis porttitor hendrerit finibus. Proin eget libero sit amet magna vehicula placerat sed eget eros.",
+      "image": "https://images.unsplash.com/photo-1541445976433-f466f228a409?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
     }
   }
 }
