@@ -6,12 +6,15 @@ import {
   Highlight,
   Gallery,
   Event,
+  PromoBanner,
 } from "../views/src/index";
 import data from "./data-featured.json";
 import { StyledSection } from "./App-style";
 
 const Home = () => {
-  const { featured, banner, highlight, gallery, event } = data.data;
+  const { featured, banner, highlight, gallery, event, promoBanner } =
+    data.data;
+
   return (
     <StyledSection>
       <Navbar />
@@ -21,6 +24,7 @@ const Home = () => {
       <Highlight data={highlight} />
       <Gallery data={gallery} />
       <Event data={event} />
+      <PromoBanner data={promoBanner} />
     </StyledSection>
   );
 };
