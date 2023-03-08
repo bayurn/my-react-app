@@ -1,7 +1,6 @@
 import Styled from "styled-components";
 
 export const StyledSection = Styled.div`
-  padding-bottom: 32px;
   .container {
     margin: auto;
 

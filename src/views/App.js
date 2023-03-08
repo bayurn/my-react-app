@@ -1,4 +1,4 @@
-import { Navbar } from "../components/index";
+import { Navbar, Footer } from "../components/index";
 import {
   Banner,
   Caption,
@@ -25,6 +25,7 @@ const Home = () => {
       <Gallery data={gallery} />
       <Event data={event} />
       <PromoBanner data={promoBanner} />
+      <Footer />
     </StyledSection>
   );
 };
