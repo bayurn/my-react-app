@@ -11,7 +11,7 @@ const SectionEvent = (props) => {
           <span>{data.description}</span>
         </StyledItems>
         <StyledItems>
-          <img src={data.image} width="100%" height="100%" />
+          <img src={data.image} alt="Event" width="100%" height="100%" />
         </StyledItems>
       </StyledWrapper>
     </StyledSection>
