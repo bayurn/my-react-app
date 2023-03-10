@@ -8,18 +8,26 @@ export const StyledFooter = Styled.div`
 `;
 
 export const StyledWrapperMenu = Styled.div`
-  display: grid;
-  grid-template-columns: 30% auto auto auto;
+  display: flex;
+  // grid-template-columns: 30% auto auto auto;
   justify-content: space-between;
 
   .menu-right {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    // float: right;
+  }
+
+  .wr-menu {
+    width: 30%;
   }
 `;
 
 export const StyledMenuList = Styled.div`
   font-family: 'Roboto', sans-serif;
+  &:not(:last-child) {
+    padding-right: 150px;
+  }
 
   .wr-logo {
     display: flex;
