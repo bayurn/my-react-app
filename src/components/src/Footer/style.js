@@ -2,9 +2,9 @@ import Styled from "styled-components";
 
 export const StyledFooter = Styled.div`
   // background-color: #2C3333;
-  margin-top: 32px;
-  border-top: 1px solid #2C3333;
-  padding: 16px 0;
+  margin-top: 48px;
+  border-top: 1px solid #ECF2FF;
+  padding: 28px 0;
 `;
 
 export const StyledWrapperMenu = Styled.div`
