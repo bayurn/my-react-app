@@ -4,7 +4,7 @@ export const StyledFooter = Styled.div`
   // background-color: #2C3333;
   margin-top: 48px;
   border-top: 1px solid #ECF2FF;
-  padding: 28px 0;
+  padding: 48px 0;
 `;
 
 export const StyledWrapperMenu = Styled.div`
@@ -50,6 +50,10 @@ export const StyledMenuList = Styled.div`
       &:not(:last-child) {
         margin-bottom: 8px;
       }
+    }
+    span:hover {
+      color: #68B984;
+      cursor: pointer;
     }
   }
 `;

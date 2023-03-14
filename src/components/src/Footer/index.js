@@ -4,7 +4,7 @@ export const Footer = () => {
   const company = {
     image: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed erat placerat, ultricies lacus ac, ultricies libero. Phasellus placerat scelerisque nisi, sit amet ullamcorper tellus ultricies at. Phasellus sit amet libero non nisi varius ultrices vitae eu diam. Mauris urna mauris, aliquet sed quam ut, imperdiet aliquam mi. Integer molestie sit amet nunc nec tincidunt.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed erat placerat, ultricies lacus ac, ultricies libero. Phasellus placerat scelerisque nisi, sit amet ullamcorper tellus ultricies at. Phasellus sit amet libero non nisi varius ultrices vitae eu diam.",
     socialMedia: [
       {
         icons: "fa-brands fa-facebook",
