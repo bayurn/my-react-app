@@ -11,7 +11,7 @@ export const StyledSection = Styled.div`
 
   &:hover{
     cursor: pointer;
-    box-shadow: rgb(0 0 0 / 20%) 5px 8px 6px;
+    box-shadow: rgb(0 0 0 / 20%) 10px 8px 12px;
   }
 
   img {
