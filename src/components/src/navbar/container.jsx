@@ -16,6 +16,9 @@ const NavbarSection = () => {
   return (
     <Navbar>
       <StyledNavbar>
+        <div className="logo-type container">
+          <h2>MACARENA</h2>
+        </div>
         <MenuWrapper className="container">
           {listMenu.map((menu, key) => {
             return <Menu key={key}>{menu.name}</Menu>;
