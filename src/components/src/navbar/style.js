@@ -14,6 +14,11 @@ export const StyledNavbar = Styled.div`
   position: relative;
   overflow: hidden;
   height: 64px;
+
+  .logo-type {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
 `;
 
 export const MenuWrapper = Styled.div`
