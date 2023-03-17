@@ -7,6 +7,7 @@ import {
   Gallery,
   Event,
   PromoBanner,
+  Recommendation,
 } from "../views/src/index";
 import data from "./data-featured.json";
 import { StyledSection } from "./App-style";
@@ -20,6 +21,7 @@ const Home = () => {
       <Navbar />
       <Banner data={banner} />
       <Caption />
+      <Recommendation />
       <Featured data={featured} />
       <Highlight data={highlight} />
       <Gallery data={gallery} />
