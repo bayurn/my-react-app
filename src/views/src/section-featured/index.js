@@ -5,16 +5,19 @@ const SectionFeatured = (props) => {
   const { data } = props;
 
   return (
-    <StyledSection className="container">
-      {data.map((content, key) => {
-        const { image, title, description } = content;
-        return (
-          <WrapperCard key={key}>
-            <Card image={image} title={title} description={description} />
-          </WrapperCard>
-        );
-      })}
-    </StyledSection>
+    <div className="container">
+      <h1>Our Offers</h1>
+      <StyledSection>
+        {data.map((content, key) => {
+          const { image, title, description } = content;
+          return (
+            <WrapperCard key={key}>
+              <Card image={image} title={title} description={description} />
+            </WrapperCard>
+          );
+        })}
+      </StyledSection>
+    </div>
   );
 };
 
