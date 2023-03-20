@@ -23,18 +23,9 @@ export const StyledWrapper = Styled.div`
     opacity: 0.9;
   }
 
-  // &:last-child {
-  //   padding-left: 10px;
-  // }
-
   &:first-child {
     padding-right: 10px;
   }
-
-  // &:last-child {
-  //   margin-left: 6px;
-  //   left: 4px;
-  // }
 `;
 
 export const StyledImg = Styled.img`
