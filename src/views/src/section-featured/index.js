@@ -12,7 +12,12 @@ const SectionFeatured = (props) => {
           const { image, title, description } = content;
           return (
             <WrapperCard key={key}>
-              <Card image={image} title={title} description={description} />
+              <Card
+                key={key}
+                image={image}
+                title={title}
+                description={description}
+              />
             </WrapperCard>
           );
         })}

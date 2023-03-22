@@ -9,7 +9,7 @@ const SectionGallery = (props) => {
       <StyledContainer>
         {data.image.map((img, key) => {
           return (
-            <StyledWrapperImg>
+            <StyledWrapperImg key={key}>
               <img src={img.imgUrl} alt={img.title} />
             </StyledWrapperImg>
           );
