@@ -13,8 +13,16 @@ export const StyledSection = Styled.div`
     @media (min-width: 1023px) and (max-width: 1215px) {
       max-width: 960px;
     }
-    @media (max-width: 1022px) {
+    @media (min-width: 813px) and (max-width: 1022px) {
       padding: 0 1.5rem;
+    }
+    @media (max-width: 812px) {
+      padding: 0 1.5rem;
+      width: 100%;
+      height: 100%;
+      min-width:100%;
+      min-height: 100%;
+      overflow-x: hidden;
     }
   }
 `;
