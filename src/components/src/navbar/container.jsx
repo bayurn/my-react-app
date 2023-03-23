@@ -15,7 +15,7 @@ const NavbarSection = () => {
 
   return (
     <Navbar>
-      <StyledNavbar>
+      <StyledNavbar className="container-mobile">
         <div className="logo-type container">
           <h2>MACARENA</h2>
         </div>
