@@ -44,7 +44,7 @@ const SectionRecommend = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container ">
       <h1>Recommendation</h1>
       <Main />
     </div>

@@ -17,6 +17,19 @@ export const StyledSection = Styled.div`
       padding: 0 1.5rem;
     }
     @media (max-width: 812px) {
+      // padding: 0 1.5rem;
+      // width: 100%;
+      // height: 100%;
+      // min-width:100%;
+      // min-height: 100%;
+      // overflow-x: hidden;
+    }
+  }
+
+  .container-mobile {
+    margin: auto;
+
+    @media (max-width: 812px) {
       padding: 0 1.5rem;
       width: 100%;
       height: 100%;

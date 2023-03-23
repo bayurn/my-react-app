@@ -2,7 +2,7 @@ import { StyledSection } from "./style";
 
 const SectionCaption = () => {
   return (
-    <StyledSection>
+    <StyledSection className="container-mobile">
       <p className="subtitle">Man of Steel</p>
       <h3>JUST BE REAL</h3>
       <p className="description">
