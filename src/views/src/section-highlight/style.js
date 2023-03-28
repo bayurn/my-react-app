@@ -10,7 +10,7 @@ export const StyledWrapper = Styled.div`
 `;
 
 export const StyledItems = Styled.div`
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   display: flex;
   justify-content: center;
   text-align: left;
