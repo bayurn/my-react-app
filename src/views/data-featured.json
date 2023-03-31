@@ -68,30 +68,46 @@
         "title": "Promo Banner"
       }
     },
-    "product": [
+    "products": [
       {
         "image": {
           "url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80"
         },
-        "title": "White Tshirt Sweater"
+        "title": "White Tshirt Sweater",
+        "price": 1000000,
+        "formatted": {
+          "price": "Rp1.000.000"
+        }
       },
       {
         "image": {
           "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2012&q=80"
         },
-        "title": "Shoes Earth"
+        "title": "Shoes Earth",
+        "price": 1500000,
+        "formatted": {
+          "price": "Rp1.500.000"
+        }
       },
       {
         "image": {
           "url": "https://images.unsplash.com/photo-1627293509201-cd0c780043e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
         },
-        "title": "Ring for Couple"
+        "title": "Ring for Couple",
+        "price": 900000,
+        "formatted": {
+          "price": "Rp900.000"
+        }
       },
       {
         "image": {
           "url": "https://images.unsplash.com/photo-1570649857669-4ad9f896435d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1067&q=80"
         },
-        "title": "Healthy Food"
+        "title": "Healthy Food",
+        "price": 1000000,
+        "formatted": {
+          "price": "Rp1.000.000"
+        }
       }
     ]
   }

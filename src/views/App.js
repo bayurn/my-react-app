@@ -8,12 +8,13 @@ import {
   Event,
   PromoBanner,
   Recommendation,
+  Products,
 } from "../views/src/index";
 import data from "./data-featured.json";
 import { StyledSection } from "./App-style";
 
 const Home = () => {
-  const { featured, banner, highlight, gallery, event, promoBanner } =
+  const { featured, banner, highlight, gallery, event, promoBanner, products } =
     data.data;
 
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Gallery data={gallery} />
       <Event data={event} />
       <PromoBanner data={promoBanner} />
+      <Products data={products} />
       <Footer />
     </StyledSection>
   );

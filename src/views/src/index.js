@@ -6,3 +6,4 @@ export { default as Gallery } from "./section-gallery";
 export { default as Event } from "./section-event";
 export { default as PromoBanner } from "./section-promo-banner";
 export { default as Recommendation } from "./section-recommendation";
+export { default as Products } from "./section-product";
