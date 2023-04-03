@@ -1,6 +1,7 @@
 import Styled from "styled-components";
 
 export const StyledSection = Styled.div`
+  margin-top: 32px;
 `;
 
 export const StyledWrapperCard = Styled.div`
