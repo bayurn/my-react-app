@@ -5,7 +5,7 @@ const Products = (props) => {
   const { data } = props;
 
   return (
-    <div className="container">
+    <div>
       <StyledSection>
         <StyledWrapperCard>
           {data.map((item, key) => {

@@ -5,7 +5,7 @@ const SectionFeatured = (props) => {
   const { data } = props;
 
   return (
-    <div className="container">
+    <div>
       <h1>Our Offers</h1>
       <StyledSection>
         {data.map((content, key) => {

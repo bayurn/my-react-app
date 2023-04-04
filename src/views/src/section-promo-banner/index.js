@@ -5,7 +5,7 @@ const SectionPromoBanner = (props) => {
 
   return (
     <StyledSection>
-      <StyledWrapperImg className="container">
+      <StyledWrapperImg>
         <img
           src={data.image.url}
           alt={data.image.title}

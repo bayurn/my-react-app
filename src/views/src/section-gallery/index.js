@@ -4,7 +4,7 @@ const SectionGallery = (props) => {
   const { data } = props;
 
   return (
-    <StyledSection className="container">
+    <StyledSection>
       <h1>{data.title}</h1>
       <StyledContainer>
         {data.image.map((img, key) => {

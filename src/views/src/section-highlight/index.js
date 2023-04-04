@@ -5,7 +5,7 @@ const SectionHighlight = (props) => {
 
   return (
     <StyledSection>
-      <StyledWrapper className="container">
+      <StyledWrapper>
         <StyledItems>
           <img src={data.image} alt="Highligt" width="100%" height="100%" />
         </StyledItems>

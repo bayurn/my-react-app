@@ -6,7 +6,7 @@ const SectionBanner = (props) => {
 
   return (
     <StyledSection>
-      <div className="container container-mobile">
+      <div>
         <Banner image={data.image} />
       </div>
     </StyledSection>

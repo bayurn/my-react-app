@@ -5,7 +5,7 @@ const SectionEvent = (props) => {
 
   return (
     <StyledSection>
-      <StyledWrapper className="container">
+      <StyledWrapper>
         <StyledItems>
           <h1>{data.title}</h1>
           <span>{data.description}</span>
