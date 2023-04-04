@@ -20,16 +20,18 @@ const Home = () => {
   return (
     <StyledSection>
       <Navbar />
-      <Banner data={banner} />
-      <Caption />
-      <Recommendation />
-      <Featured data={featured} />
-      <Highlight data={highlight} />
-      <Gallery data={gallery} />
-      <Event data={event} />
-      <PromoBanner data={promoBanner} />
-      <Products data={products} />
-      <Footer />
+      <div className="container">
+        <Banner data={banner} />
+        <Caption />
+        <Recommendation />
+        <Featured data={featured} />
+        <Highlight data={highlight} />
+        <Gallery data={gallery} />
+        <Event data={event} />
+        <PromoBanner data={promoBanner} />
+        <Products data={products} />
+        <Footer />
+      </div>
     </StyledSection>
   );
 };
